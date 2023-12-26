@@ -24,7 +24,7 @@ function generateProductCards(products) {
 
     products.forEach((product) => {
         const card = document.createElement("div");
-        card.classList.add("col", "product-card"); // Tambahkan kelas "product-card" di sini
+        card.classList.add("col", "product-card");
 
         card.innerHTML = `
             <div class="card">
