@@ -42,7 +42,7 @@ function generateProductCards(products) {
 }
 
 
-// Fungsi untuk menampilkan detail produk dalam modal
+
 function showProductDetails(productId) {
   fetch("/js/data.json")
     .then(response => response.json())
