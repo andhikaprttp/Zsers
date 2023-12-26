@@ -55,7 +55,6 @@ function showProductDetails(productId) {
         <p>${selectedProduct.description}</p>
       `;
 
-      // Menampilkan modal
       const productModal = new bootstrap.Modal(document.getElementById('productModal'));
       productModal.show();
     });
