@@ -42,7 +42,6 @@ function generateProductCards(products) {
 }
 
 
-
 function showProductDetails(productId) {
   fetch("/js/data.json")
     .then(response => response.json())
