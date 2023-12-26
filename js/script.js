@@ -77,5 +77,4 @@ function showProductDetails(productId) {
   productModal.show();
 }
 
-// Panggil fungsi generateProductCards dengan menggunakan data produk statis
 generateProductCards(productsData);
