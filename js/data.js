@@ -1,4 +1,4 @@
-[
+const productsData = [
   {
     "id": 1,
     "category": "coal",
@@ -23,3 +23,5 @@
   }
 ]
 
+
+export default productsData;
