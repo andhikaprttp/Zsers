@@ -39,7 +39,7 @@ function generateProductCards(products) {
 
 
 function showProductDetails(productId) {
-  fetch("/js/data.json")
+  fetch("/js/data.js")
     .then(response => response.json())
     .then(productsData => {
       const selectedProduct = productsData.find((product) => product.id === productId);
