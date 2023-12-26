@@ -1,11 +1,7 @@
-// Memanggil fungsi untuk menghasilkan kartu produk
-fetch("/js/data.json")
+fetch("../js/data.json")
   .then(response => response.json())
   .then(productsData => generateProductCards(productsData));
 
-
-
-// Fungsi untuk mencari produk berdasarkan judul
 function searchProducts() {
     const input = document.getElementById("searchInput").value.toLowerCase();
     const productCards = document.querySelectorAll('.product-card');
