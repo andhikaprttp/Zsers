@@ -31,7 +31,7 @@ function generateProductCards(products) {
                 <img src="${product.imageUrl}" class="card-img-top" alt="${product.title}">
                 <div class="card-body">
                     <h5 class="card-title">${product.title}</h5>
-                    <p class="card-text">${simpleproduct.description}</p>
+                    <p class="card-text">${product.preview}</p>
                     <button class="btn btn-dark" onclick="showProductDetails(${product.id})">Detail</button>
                 </div>
             </div>
