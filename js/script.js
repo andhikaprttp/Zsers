@@ -1,7 +1,3 @@
-fetch("../js/data.json")
-  .then(response => response.json())
-  .then(productsData => generateProductCards(productsData));
-
 function searchProducts() {
     const input = document.getElementById("searchInput").value.toLowerCase();
     const productCards = document.querySelectorAll('.product-card');
