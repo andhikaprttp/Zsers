@@ -76,3 +76,6 @@ function showProductDetails(productId) {
   const productModal = new bootstrap.Modal(document.getElementById('productModal'));
   productModal.show();
 }
+
+// Panggil fungsi generateProductCards dengan menggunakan data produk statis
+generateProductCards(productsData);
