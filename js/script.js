@@ -48,7 +48,6 @@ function showProductDetails(productId) {
     .then(productsData => {
       const selectedProduct = productsData.find((product) => product.id === productId);
 
-      // Menampilkan detail produk dalam modal
       const modalBody = document.getElementById("productModalBody");
       modalBody.innerHTML = `
         <img src="${selectedProduct.imageUrl}" class="card-img-top mb-3" alt="${selectedProduct.title}">
