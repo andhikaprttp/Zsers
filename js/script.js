@@ -20,7 +20,7 @@ function searchProducts() {
 // Fungsi untuk menghasilkan kartu produk
 function generateProductCards(products) {
     const productCardsContainer = document.getElementById("productCards");
-    productCardsContainer.innerHTML = ""; // Mengosongkan kontainer sebelum menambahkan kartu produk baru
+    productCardsContainer.innerHTML = ""; 
 
     products.forEach((product) => {
         const card = document.createElement("div");
