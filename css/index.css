@@ -1,13 +1,15 @@
+@font-face {
+    font-family: "ovo";
+    src: url('/css/font/Ovo-Regular.ttf')
+}
+
 body {
     margin: 2px;
-    font-family: Ovo;
+    font-family: ovo;
     background-color: #242424;
 }
 
-@font-face {
-    font-family: "Ovo";
-    src: url('/css/font/Ovo-Regular.ttf')
-}
+
 
 .gold {
     color: #b79447;
